@@ -71,7 +71,7 @@ public class Main {
         for (int i = 0; i < linhas; i++) {
             if (matriz[i][0] != null && matriz[i][0].equalsIgnoreCase(nomeAluno)) {
                 totalFaltas += Integer.parseInt(matriz[i][2]);
-                System.out.println("Data da falta: " + matriz[i][1]);
+                System.out.println("Data de falta: " + matriz[i][1]);
             }
         }
 
